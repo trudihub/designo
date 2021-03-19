@@ -107,6 +107,10 @@ const HomeWrapper = styled.div`
         }
         img{
             margin-top: 300px;
+            width: 40%;
+        }
+        div{
+            width: 70%;
         }
     }
 
