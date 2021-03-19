@@ -1,13 +1,89 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Jost";
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#webDesignImg{
+    background: url("./components/assets/home/mobile/image-web-design.jpg");
+
+}
+#appDesignImg{
+    background: url("./components/assets/home/mobile/image-app-design.jpg");
+}
+#graphicDesignImg{
+    background: url("./components/assets/home/mobile/image-graphic-design.jpg");
+}
+.leafPattern{
+    display: none;
+}
+
+@media screen and (min-width: 768px){
+    #webDesignImg{
+        background: url("./components/assets/home/tablet/image-web-design.jpg");
+        height: 200px;
+    }
+    #appDesignImg{
+        background: url("./components/assets/home/tablet/image-app-design.jpg");
+        height: 200px;
+    }
+    #graphicDesignImg{
+        background: url("./components/assets/home/tablet/image-graphic-design.jpg");
+        height: 200px;
+    }
+    #realDealAbout{
+        content: url("./components/assets/about/tablet/image-real-deal.jpg");
+    }
+
+    #worldTalentAbout{
+        content: url("./components/assets/about/tablet/image-world-class-talent.jpg");
+    }
+
+    #heroImgAbout{
+        content: url("./components/assets/about/tablet/image-about-hero.jpg");
+    }
+    .leafPattern{
+        display: block;
+    }
+}
+@media screen and (min-width: 1024px){
+    #webDesignImg{
+        background: url("./components/assets/home/desktop/image-web-design-large.jpg");
+        height: 100%;
+        width: 100%;
+        margin: 0;
+
+    }
+    #appDesignImg{
+        background: url("./components/assets/home/desktop/image-app-design.jpg");
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        
+    }
+    #graphicDesignImg{
+        background: url("./components/assets/home/desktop/image-graphic-design.jpg");
+        height: 100%;
+        width: 100%;
+        margin: 0;
+    }
+    .desktopProjectWrapper{
+        height: 320px;
+        grid-template-rows: 1fr;
+        width: 80%;
+    }
+    #realDealAbout{
+        content: url("./components/assets/about/desktop/image-real-deal.jpg");
+    }
+
+    #worldTalentAbout{
+        content: url("./components/assets/about/desktop/image-world-class-talent.jpg");
+    }
+
+    #heroImgAbout{
+        content: url("./components/assets/about/desktop/image-about-hero.jpg");
+    }
 }
