@@ -54,8 +54,8 @@ const HeaderStyle = styled.header`
         }
     }
     @media(min-width: 1024px){
-        width: 70%;
-        margin-left: 15%;
+        width: 80%;
+        margin-left: 10%;
         justify-content: space-between;
     }
 `
@@ -100,8 +100,8 @@ const HomeWrapper = styled.div`
         flex-direction: row;
         align-items: center;
         text-align: left;
-        width: 70%;
-        margin-left:15%;
+        width: 80%;
+        margin-left:10%;
         >h1, p, button{
             margin-left: 15%;
         }
@@ -237,9 +237,9 @@ const ProjectWrapper = styled.div`
         }
     }
     @media(min-width: 1024px){
-        width: 70%;
+        width: 80%;
         height: 640px;
-        margin: 5% 15%;
+        margin: 5% 10%;
         display: grid;
         grid-template-rows: repeat(2, 1fr);
         grid-template-columns: repeat(2, 1fr);
@@ -601,8 +601,8 @@ const AboutContainer = styled.div`
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
-        width: 70%;
-        margin-left: 15%;
+        width: 80%;
+        margin-left: 10%;
         #heroImgAbout{
             order: 2;
             justify-self: flex-end;
@@ -711,8 +711,8 @@ const ContactForm = styled.div`
         flex-direction: row;
         justify-content: space-evenly;
         height: 480px;
-        width: 70%;
-        margin-left: 15%;
+        width: 80%;
+        margin-left: 10%;
         .desktopHero{
             display: block;
             transform: translateX(-50%);
