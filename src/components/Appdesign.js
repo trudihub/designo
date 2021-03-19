@@ -31,35 +31,35 @@ const Appdesign = () => {
             <WebprojectsWrapper>
             <img className="leafPattern" style={{position:"absolute", zIndex:"0"}} src={LeafPattern} alt=""/>
                 <div className="projectContainer">
-                        <img src={AirfilterImg} alt="Project preview image"/>
+                        <img src={AirfilterImg} alt="Project preview"/>
                         <div>
                             <h2>AIRFILTER</h2>
                             <p>Solving the problem of poor indoor air quality by filtering air</p>
                         </div>
                 </div>
                 <div className="projectContainer">
-                        <img src={EyecamImg} alt="Project preview image"/>
+                        <img src={EyecamImg} alt="Project preview"/>
                         <div>
                             <h2>EYECAM</h2>
                             <p>Product that lets you edit your favorite photos and videos at any time </p>
                         </div>
                 </div>
                 <div className="projectContainer">
-                        <img src={FaceitImg} alt="Project preview image"/>
+                        <img src={FaceitImg} alt="Project preview"/>
                         <div>
                             <h2>FACEIT</h2>
                             <p>Get to meet your favorite internet superstar with the faceit app</p>
                         </div>
                 </div>
                 <div className="projectContainer">
-                        <img src={TodoImg} alt="Project preview image"/>
+                        <img src={TodoImg} alt="Project preview"/>
                         <div>
                             <h2>TODO</h2>
                             <p>A todo app that features cloud sync with light and dark mode</p>
                         </div>
                 </div>
                 <div className="projectContainer">
-                        <img src={LoopstudioImg} alt="Project preview image"/>
+                        <img src={LoopstudioImg} alt="Project preview"/>
                         <div>
                             <h2>LOOPSTUDIOS</h2>
                             <p>A VR experience app made for Loopstudio</p>

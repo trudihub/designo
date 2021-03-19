@@ -6,12 +6,11 @@ import WorldTalentImg from "./assets/about/mobile/image-world-class-talent.jpg"
 import MobileHeroImg from "./assets/shared/desktop/bg-pattern-three-circles.svg"
 import RealDealImg from "./assets/about/mobile/image-real-deal.jpg"
 import MobileDesign from "./assets/shared/mobile/bg-pattern-design-pages-intro-mobile.svg"
-import TabletDesign from "./assets/shared/tablet/bg-pattern-design-pages-intro-tablet.svg"
 import LeafPattern from "./assets/shared/desktop/bg-pattern-leaf.svg"
 import CanadaSvg from "./assets/shared/desktop/illustration-canada.svg"
 import AustraliaSvg from "./assets/shared/desktop/illustration-australia.svg"
 import UKSvg from "./assets/shared/desktop/illustration-united-kingdom.svg"
-import { AboutContainer, Button, WebprojectsWrapper, LocationWrapper } from "./StyledComponents"
+import { AboutContainer, Button, LocationWrapper } from "./StyledComponents"
 
 const About = () => {
     return (
@@ -19,7 +18,7 @@ const About = () => {
             <Header/>
             
             <AboutContainer style={{background: "#E7816B"}}>
-                    <img id="heroImgAbout" src={HeroImg} alt="About image"/>
+                    <img id="heroImgAbout" src={HeroImg} alt="About"/>
                     <div className="aboutHeaderContainer">
                     <img style={{position:"absolute"}} className="mobileDesign" src={MobileDesign} alt="mobile design header"/>
                     <h1>

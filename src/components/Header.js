@@ -15,7 +15,7 @@ const Header = () => {
                 <Link to="/"><img height="27" width="202" src={Logo} alt="logo"></img></Link>
                 {menuState ? 
                 <img onClick={()=>setMenuState(false)} src={CloseBtn} alt="close Icon"/>:
-                <svg onClick={()=>setMenuState(true)} width="24" height="20" xmlns="http://www.w3.org/2000/svg"><g fill="#1D1C1E" fill-rule="evenodd"><path d="M0 0h24v4H0zM0 8h24v4H0zM0 16h24v4H0z"/></g></svg>
+                <svg onClick={()=>setMenuState(true)} width="24" height="20" xmlns="http://www.w3.org/2000/svg"><g fill="#1D1C1E" fillRule="evenodd"><path d="M0 0h24v4H0zM0 8h24v4H0zM0 16h24v4H0z"/></g></svg>
                 }
                 <div className="headerLinks">
                     <Link to="/about"><h2>OUR COMPANY</h2></Link>

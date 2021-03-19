@@ -30,21 +30,21 @@ const GraphicDesign = () => {
             <WebprojectsWrapper style={{gridTemplateRows:"1fr"}}>
                 <img className="leafPattern" style={{position:"absolute", zIndex:"0"}} src={LeafPattern} alt=""/>
                     <div className="projectContainer">
-                        <img src={ChangeImg} alt="Project Preview image"/>
+                        <img src={ChangeImg} alt="Project Preview"/>
                         <div>
                             <h2>TIM BROWN</h2>
                             <p>A book cover designed for Tim Brown’s new release, ‘Change’</p>
                         </div>
                     </div>
                     <div className="projectContainer">
-                        <img src={BoxedWaterImg} alt="Project Preview image"/>
+                        <img src={BoxedWaterImg} alt="Project Preview"/>
                         <div>
                             <h2>BOXED WATER</h2>
                             <p>A simple packaging concept made for Boxed Water</p>
                         </div>
                     </div>
                     <div className="projectContainer">
-                        <img src={ScieneImg} alt="Project Preview image"/>
+                        <img src={ScieneImg} alt="Project Preview"/>
                         <div>
                             <h2>SCIENCE</h2>
                             <p> A poster made in collaboration with the Federal Art Project</p>

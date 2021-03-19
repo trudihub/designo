@@ -5,9 +5,7 @@ import { useEffect } from "react"
 import { HomeWrapper, Headline, Paragraph, Button, ProjectContainer, QualitiesContainer, QualitiesWrapper,
 ProjectWrapper } from "./StyledComponents"
 import ImageHeroPhone from "./assets/home/desktop/image-hero-phone.png"
-import ImageAppDesign from "./assets/home/mobile/image-app-design.jpg"
-import ImageGraphicDesign from "./assets/home/mobile/image-graphic-design.jpg"
-import ImageWebDesign from "./assets/home/mobile/image-web-design.jpg"
+
 import IllustrationPassionate from "./assets/home/desktop/illustration-passionate.svg"
 import IllustrationResourceful from "./assets/home/desktop/illustration-resourceful.svg"
 import IllustrationFriendly from "./assets/home/desktop/illustration-friendly.svg"
@@ -24,7 +22,7 @@ const Home = () => {
         <>
             <Header/>
             <HomeWrapper>
-            <svg style={{position:"absolute",marginTop:"100px"}} width="640" height="639" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="a"><stop stop-color="#5D0202" stop-opacity="0" offset="0%"/><stop stop-color="#5D0202" stop-opacity=".498" offset="100%"/></linearGradient></defs><circle fill="url(#a)" transform="matrix(0 -1 -1 0 640 640)" cx="320" cy="320" r="320" fill-rule="evenodd" opacity=".309"/></svg>
+            <svg style={{position:"absolute",marginTop:"100px"}} width="640" height="639" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="a"><stop stopColor="#5D0202" stopOpacity="0" offset="0%"/><stop stopColor="#5D0202" stopOpacity=".498" offset="100%"/></linearGradient></defs><circle fill="url(#a)" transform="matrix(0 -1 -1 0 640 640)" cx="320" cy="320" r="320" fillRule="evenodd" opacity=".309"/></svg>
             <div style={{zIndex:"10"}}>
             <Headline>Award-winning custom designs and digital branding solutions</Headline>
             <Paragraph>With over 10 years in the industry, we are experienced in creating fully responsive websites, app design, and engaging brand experiences. Find out more about our services.</Paragraph>
@@ -62,7 +60,7 @@ const Home = () => {
             <QualitiesWrapper>
                 <QualitiesContainer>
                     <img src={IllustrationPassionate} alt="Illustration passionate"/>
-                    <svg style={{position:"absolute"}} xmlns="http://www.w3.org/2000/svg" width="202" height="202"><defs><linearGradient id="a" x1="0%" x2="100%" y1="50%" y2="50%"><stop offset="0%" stop-color="#5D0202" stop-opacity="0"/><stop offset="100%" stop-color="#5D0202" stop-opacity=".498"/></linearGradient></defs><circle cx="101" cy="101" r="101" fill="url(#a)" fill-rule="evenodd" opacity=".203" transform="matrix(-1 0 0 1 202 0)"/></svg>
+                    <svg style={{position:"absolute"}} xmlns="http://www.w3.org/2000/svg" width="202" height="202"><defs><linearGradient id="a" x1="0%" x2="100%" y1="50%" y2="50%"><stop offset="0%" stopColor="#5D0202" stopOpacity="0"/><stop offset="100%" stopColor="#5D0202" stopOpacity=".498"/></linearGradient></defs><circle cx="101" cy="101" r="101" fill="url(#a)" fillRule="evenodd" opacity=".203" transform="matrix(-1 0 0 1 202 0)"/></svg>
                     <div>
                         <h2>PASSIONATE</h2>
                         <p>Each project starts with an in-depth brand research to ensure we only create products that serve a purpose. We merge art, design, and technology into exciting new solutions.</p>
@@ -70,7 +68,7 @@ const Home = () => {
                 </QualitiesContainer>
                 <QualitiesContainer>
                     <img src={IllustrationResourceful} alt="Illustration resourceful"/>
-                    <svg style={{position:"absolute"}} xmlns="http://www.w3.org/2000/svg" width="202" height="202"><defs><linearGradient id="a" x1="0%" x2="100%" y1="50%" y2="50%"><stop offset="0%" stop-color="#5D0202" stop-opacity="0"/><stop offset="100%" stop-color="#5D0202" stop-opacity=".498"/></linearGradient></defs><circle cx="101" cy="101" r="101" fill="url(#a)" fill-rule="evenodd" opacity=".203" transform="matrix(-1 0 0 1 202 0)"/></svg>
+                    <svg style={{position:"absolute"}} xmlns="http://www.w3.org/2000/svg" width="202" height="202"><defs><linearGradient id="a" x1="0%" x2="100%" y1="50%" y2="50%"><stop offset="0%" stopColor="#5D0202" stopOpacity="0"/><stop offset="100%" stopColor="#5D0202" stopOpacity=".498"/></linearGradient></defs><circle cx="101" cy="101" r="101" fill="url(#a)" fillRule="evenodd" opacity=".203" transform="matrix(-1 0 0 1 202 0)"/></svg>
                     <div>
                         <h2>RESOURCEFUL</h2>
                         <p>Everything that we do has a strategic purpose. We use an agile approach in all of our projects and value customer collaboration. It guarantees superior results that fulfill our clients’ needs. </p>
@@ -78,7 +76,7 @@ const Home = () => {
                 </QualitiesContainer>
                 <QualitiesContainer>
                     <img src={IllustrationFriendly} alt="Illustration friendly"/>
-                    <svg style={{position:"absolute"}} xmlns="http://www.w3.org/2000/svg" width="202" height="202"><defs><linearGradient id="a" x1="0%" x2="100%" y1="50%" y2="50%"><stop offset="0%" stop-color="#5D0202" stop-opacity="0"/><stop offset="100%" stop-color="#5D0202" stop-opacity=".498"/></linearGradient></defs><circle cx="101" cy="101" r="101" fill="url(#a)" fill-rule="evenodd" opacity=".203" transform="matrix(-1 0 0 1 202 0)"/></svg>
+                    <svg style={{position:"absolute"}} xmlns="http://www.w3.org/2000/svg" width="202" height="202"><defs><linearGradient id="a" x1="0%" x2="100%" y1="50%" y2="50%"><stop offset="0%" stopColor="#5D0202" stopOpacity="0"/><stop offset="100%" stopColor="#5D0202" stopOpacity=".498"/></linearGradient></defs><circle cx="101" cy="101" r="101" fill="url(#a)" fillRule="evenodd" opacity=".203" transform="matrix(-1 0 0 1 202 0)"/></svg>
                     <div>
                         <h2>FRIENDLY</h2>
                         <p>We are a group of enthusiastic folks who know how to put people first. Our success depends on our customers, and we strive to give them the best experience a company can provide.</p>
